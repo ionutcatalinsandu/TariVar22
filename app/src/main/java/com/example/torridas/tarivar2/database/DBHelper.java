@@ -47,7 +47,8 @@ public class DBHelper extends SQLiteOpenHelper {
 
     String creatingCitiesTableQuery(){
         return "CREATE TABLE " + TABLE_Cities + "(" + KEY_OID + " INTEGER PRIMARY KEY," +
-                KEY_ONAME + " TEXT," + KEY_COUNTRY_OF_PROVENIENCE_ID + " TEXT)";
+                KEY_ONAME + " TEXT," + KEY_COUNTRY_OF_PROVENIENCE_ID + " TEXT, FOREIGN KEY "+
+                "(" + KEY_COUNTRY_OF_PROVENIENCE_ID +")" +" REFERENCES "  + TABLE_Countries + "(" + KEY_CID + ")";
     }
 
     private static DBHelper sInstance;
