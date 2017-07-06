@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textTitlu"> 40sp </dimen>
+    <dimen name="buton">10sp</dimen>
+    <dimen name="dimDetalii">12sp</dimen>
+    <dimen name="numeTara">20sp</dimen>
+    <dimen name="dim_lista_orase">20sp</dimen>
+    <dimen name="itemPadding">7.5dp</dimen>
+    <dimen name="buttonPadding">5dp</dimen>
+    <dimen name="buttonMargin">7.5dp</dimen>
+    <dimen name="margineJos">15dp</dimen>
+    <dimen name="dimsteagH">40dp</dimen>
+    <dimen name="dimsteagW">40dp</dimen>
+    <dimen name="butonH">30dp</dimen>
+    <dimen name="butonW">100dp</dimen>
+    <dimen name="butonDetaliiH">30dp</dimen>
+    <dimen name="butonDetaliiW">50dp</dimen>
+</resources>

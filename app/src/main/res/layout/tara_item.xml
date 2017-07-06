@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/itemPadding">
+
+    <ImageView
+        android:id="@+id/steag"
+        android:layout_width="@dimen/dimsteagW"
+        android:layout_height="@dimen/dimsteagH"
+        android:layout_weight="2"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:textSize="@dimen/numeTara"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+</LinearLayout>

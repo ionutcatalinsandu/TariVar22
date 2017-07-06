@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TemaTari</string>
+    <string name="titlu"> Ghidul tau turistic </string>
+    <string name="detalii">Detalii</string>
+    <string name="adauga_oras">Adauga un oras</string>
+    <string name="adauga_tara">Adauga o tara</string>
+    <string name="sterge_lista">Ia-o de la capat!</string>
+    <string name="titlu_lista_orase">Lista orase</string>
+    <string name="titlue_detalii_oras">Detalii </string>
+</resources>

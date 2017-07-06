@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.torridas.tematari.Main2Activity"
+    android:background="@color/background">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/culoareBara"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:theme="@style/Base.Widget.AppCompat.Toolbar">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/titlu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text="@string/titlu_lista_orase"
+                android:textColor="@color/alb"
+                android:textSize="@dimen/dim_lista_orase">
+
+            </TextView>
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+    <ListView
+        android:id="@+id/listaMea2"
+        android:layout_width="0dp"
+        android:layout_height="450dp"
+        android:layout_margin="@dimen/margineJos"
+        android:background="@color/albastruDeCer"
+        android:padding="@dimen/itemPadding"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+    </ListView>
+
+</android.support.constraint.ConstraintLayout>

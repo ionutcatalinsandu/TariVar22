@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#1B5E20</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="culoareBara">#558B2F </color>
+    <color name="alb">#FFFFFF</color>
+    <color name="verdeScrollView">#8BC34A</color>
+    <color name="albastruDeCer">#D4E157</color>
+    <color name="textButon">#3E2723</color>
+    <color name="verdefrumos">#B2FF59</color>
+    <color name="background">#7CB342</color>
+</resources>

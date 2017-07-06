@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.example.torridas.tarivar2.country.view.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/culoareBara"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/Base.Widget.AppCompat.Toolbar">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/titlu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text="@string/titlu"
+                android:textColor="@color/alb"
+                android:textSize="@dimen/textTitlu">
+
+            </TextView>
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:id="@+id/butoane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <Button
+            android:id="@+id/oras_buton"
+            android:layout_width="@dimen/butonW"
+            android:layout_height="@dimen/butonH"
+            android:layout_gravity="center"
+            android:background="@color/culoareBara"
+            android:padding="@dimen/buttonPadding"
+            android:text="@string/adauga_oras"
+            android:textAllCaps="false"
+            android:textColor="@color/alb"
+            android:textSize="@dimen/buton" />
+
+        <Button
+            android:id="@+id/tara_buton"
+            android:layout_width="@dimen/butonW"
+            android:layout_height="@dimen/butonH"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/buttonMargin"
+            android:background="@color/culoareBara"
+            android:padding="@dimen/buttonPadding"
+            android:text="@string/adauga_tara"
+            android:textAllCaps="false"
+            android:textColor="@color/alb"
+            android:textSize="@dimen/buton" />
+
+        <Button
+            android:id="@+id/sterge_buton"
+            android:layout_width="@dimen/butonW"
+            android:layout_height="@dimen/butonH"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/buttonMargin"
+            android:background="@color/culoareBara"
+            android:padding="@dimen/buttonPadding"
+            android:text="@string/sterge_lista"
+            android:textAllCaps="false"
+            android:textColor="@color/alb"
+            android:textSize="@dimen/buton"
+            android:onClick="deLaCapat"/>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listaMea"
+        android:layout_width="0dp"
+        android:layout_height="450dp"
+        android:layout_margin="@dimen/margineJos"
+        android:background="@color/albastruDeCer"
+        android:padding="@dimen/itemPadding"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+    </ListView>
+</android.support.constraint.ConstraintLayout>
